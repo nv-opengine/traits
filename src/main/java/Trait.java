@@ -14,6 +14,10 @@ public class Trait {
 		this(name, imageName, 1);
 	}
 
+	public Trait(String name, int weight) {
+		this(name, "", weight);
+	}
+
 	public Trait(String name, String imageName, int weight) {
 		this.name = name;
 		this.imageName = imageName;

@@ -14,4 +14,12 @@ public class TraitCategory {
 			trait.setCategory(this);
 		}	
 	}
+
+	public Trait[] getTraits() {
+		return this.traits;
+	}
+
+	public boolean isRequired() {
+		return this.required;
+	}
 }
